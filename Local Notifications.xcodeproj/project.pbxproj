@@ -17,6 +17,8 @@
 		C365282C2768ACE800629027 /* Local_NotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C365282B2768ACE800629027 /* Local_NotificationsTests.swift */; };
 		C36528362768ACE800629027 /* Local_NotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36528352768ACE800629027 /* Local_NotificationsUITests.swift */; };
 		C36528382768ACE800629027 /* Local_NotificationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36528372768ACE800629027 /* Local_NotificationsUITestsLaunchTests.swift */; };
+		C36529682775FA7500629027 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36529672775FA7500629027 /* TableViewController.swift */; };
+		C365296A2775FAF500629027 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36529692775FAF500629027 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		C36528312768ACE800629027 /* Local NotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Local NotificationsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36528352768ACE800629027 /* Local_NotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_NotificationsUITests.swift; sourceTree = "<group>"; };
 		C36528372768ACE800629027 /* Local_NotificationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Local_NotificationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C36529672775FA7500629027 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C36529692775FAF500629027 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 		C36528052768ACE300629027 = {
 			isa = PBXGroup;
 			children = (
+				C36529692775FAF500629027 /* DataModel.swift */,
+				C36529672775FA7500629027 /* TableViewController.swift */,
 				C36528102768ACE300629027 /* Local Notifications */,
 				C365282A2768ACE800629027 /* Local NotificationsTests */,
 				C36528342768ACE800629027 /* Local NotificationsUITests */,
@@ -263,7 +269,9 @@
 			files = (
 				C365281C2768ACE300629027 /* Local_Notifications.xcdatamodeld in Sources */,
 				C36528162768ACE300629027 /* ViewController.swift in Sources */,
+				C365296A2775FAF500629027 /* DataModel.swift in Sources */,
 				C36528122768ACE300629027 /* AppDelegate.swift in Sources */,
+				C36529682775FA7500629027 /* TableViewController.swift in Sources */,
 				C36528142768ACE300629027 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

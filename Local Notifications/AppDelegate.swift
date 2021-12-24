@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         return true
     }
+    func applicationWillTerminate(application: UIApplication) {
+            // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+     // ------ ADD THE LINE BELOW ------
+            self.saveContext() // ADD THIS LINE
+        }
 
     // MARK: UISceneSession Lifecycle
 
